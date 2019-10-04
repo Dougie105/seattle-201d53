@@ -56,7 +56,7 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
     var sum1 = sum(a, b)[0];
     var sum2 = sum(sum1, c)[0];
-
+// fgjdhgudfshgf hdfjfg
     var prod1 = multiply(a,b)[0];
     var prod2 = multiply(prod1, c)[0];
 
