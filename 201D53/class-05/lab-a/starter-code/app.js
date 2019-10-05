@@ -56,7 +56,6 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
     var sum1 = sum(a, b)[0];
     var sum2 = sum(sum1, c)[0];
-//fdhgsagfkdgha f
     var prod1 = multiply(a,b)[0];
     var prod2 = multiply(prod1, c)[0];
 
@@ -107,10 +106,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-    var sum4 = 
-    var answer = 
-    console.log(answer);
-    return answer;
+    var prod4 = multiply(multiply(testArray[2], testArray[1])[0], testArray[0])[0];
+    var answer2 = [prod4, 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + prod4 + '.'];
+    return answer2;
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
