@@ -6,6 +6,7 @@
 var cart = new Cart([]);
 
 // On screen load, we call this method to put all of the busmall options
+
 // (the things in the Product.allProducts array) into the drop down list.  
 var selectElement = document.getElementById('items');
 function populateForm() {
@@ -28,6 +29,7 @@ function populateForm() {
   // selectElement.appendChild(selectTab);
 }
 // console.log(populateForm());
+
 
 // When someone submits the form, we need to add the selected item to the cart
 // object, save the whole thing back to local storage and update the screen
